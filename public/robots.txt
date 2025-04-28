@@ -1,0 +1,10 @@
+# *
+User-agent: *
+Allow: /
+Disallow: 
+
+# Host
+Host: https://mctool.pro
+
+# Sitemaps
+Sitemap: https://mctool.pro/sitemap.xml

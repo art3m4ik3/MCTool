@@ -1,0 +1,17 @@
+services:
+  web:
+    build: .
+    ports:
+      - '3000:3000'
+    environment:
+      - NODE_ENV=production
+    volumes:
+      - ./:/app:ro
+    depends_on:
+      - builder
+  builder:
+    image: node:18-alpine
+    working_dir: /app
+    command: npm install && npm run build
+    volumes:
+      - ./:/app:rw

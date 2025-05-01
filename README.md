@@ -31,7 +31,7 @@
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/mctool.git
+   git clone https://github.com/art3m4ik3/mctool.git
    cd mctool
    ```
 2. Install dependencies:
